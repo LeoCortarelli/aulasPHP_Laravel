@@ -1,0 +1,17 @@
+Ativando o servidor
+php artisan serve
+
+-------------------------------------------------------------
+
+Anotacoes para ROUTES
+<!-- Recebendo por parametro -->
+<p>Id do jogo: {{ $idJogo }}</p> <!-- Voce coloca a variavel em que o id está recebendo da routes -->
+<p>Nome do jogo: {{ $nomeJogo }}</p> <!-- Voce coloca a variavel em que o NOME está recebendo da routes -->
+
+---------------------------------------------------------------------------------
+
+Anotações para os Controllers
+<!-- Criando um controller pelo cmd : e preciso estar dentro da pasta do trabalho -->
+php artisan make:controller JogosController
+
+ELE VAI ESTAR NA PASTA app > Http > Controller 
